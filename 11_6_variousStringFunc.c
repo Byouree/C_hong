@@ -33,13 +33,13 @@ int main()
     // //puts(str1);
 
     //strcmp() and strncmp() ; compare strings (not characters)
-    // printf("%d\n", strcmp("A", "A"));
-    // printf("%d\n", strcmp("A", "B"));
-    // printf("%d\n", strcmp("B", "A"));
-    // printf("%d\n", strcmp("Hello", "Hello"));
-    // printf("%d\n", strcmp("Banana", "Bananas"));
-    // printf("%d\n", strcmp("Bananas", "Banana"));
-    // printf("%d\n", strncmp("Bananas","Banana", 6));
+    printf("%d\n", strcmp("A", "A"));
+    printf("%d\n", strcmp("A", "B"));
+    printf("%d\n", strcmp("B", "A"));
+    printf("%d\n", strcmp("Hello", "Hello"));
+    printf("%d\n", strcmp("Banana", "Bananas"));
+    printf("%d\n", strcmp("Bananas", "Banana"));
+    printf("%d\n", strncmp("Bananas","Banana", 6));
     
     //printf("%d\n", my_strcmp("Hellos", "Hello"));
     
@@ -70,13 +70,13 @@ int main()
     // }
 
     // There are more functions
-    printf("%s\n", strchr("Hello, World", 'e'));
-    printf("%s\n", strpbrk("Hello, World", "ABCDE"));
-    printf("%s\n", strpbrk("Hello, World", "abcde"));
+    // printf("%s\n", strchr("Hello, World", 'e'));
+    // printf("%s\n", strpbrk("Hello, World", "ABCDE"));
+    // printf("%s\n", strpbrk("Hello, World", "abcde"));
 
-    printf("%s\n", strrchr("Hello, World, Hello, World", 'l')); //last coourrence
-    printf("%s\n", strstr("Hello, World", "wor"));
-    printf("%s\n", strstr("Hello, World", "Wor"));
+    // printf("%s\n", strrchr("Hello, World, Hello, World", 'l')); //last coourrence
+    // printf("%s\n", strstr("Hello, World", "wor"));
+    // printf("%s\n", strstr("Hello, World", "Wor"));
 
     return 0;
 
